@@ -293,7 +293,6 @@
                   <div class="carousel-item active">
                      <img src="konar-a3.jpg" class="d-block w-100" alt="..." style="object-fit: cover; height: 50rem;">
                      <div class="carousel-caption d-none d-md-block">
-                      
                         <!--<h5>First slide label</h5>-->
                         <!--<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
                      </div>
@@ -375,7 +374,7 @@
                </div>
                <div class="left-ni">
                   <div class="container">
-                     <div class="text-center" data-toggle="modal" data-target="#exampleModal" style="cursor:pointer">
+                     <div class="text-center" data-toggle="modal" data-target="#exampleModal1" style="cursor:pointer">
                         <h2 style="font-size: 30px !important">Request Pick n Drop</h2>
                         <div>Request Pick Up and Delivery Service.</div>
                      </div>
@@ -422,7 +421,7 @@
          </div>
          <div class="left-ni">
             <div class="container">
-               <div class="text-center" data-toggle="modal" data-target="#exampleModal" style="cursor:pointer">
+               <div class="text-center" data-toggle="modal" data-target="#exampleModal1" style="cursor:pointer">
                   <h2>Request Pick n Drop</h2>
                   <div>Request Pick Up and Delivery Service.</div>
                </div>
@@ -490,7 +489,7 @@
                            <div class="user-desc-text">Make deliveries faster with konar. Find the closest rider to you now.</div>
                            <div class="user-desc-cta">
                               <div>
-                                 <a href="#exampleModal" data-toggle="modal" class="section-1234-btn user-desc-cta-link green">
+                                 <a href="#exampleModal1" data-toggle="modal" class="section-1234-btn user-desc-cta-link green">
                                     <span class="section-1234-btn-span">
                                        Request Konar
                                        <svg id="Layer_1" height="14px" width="66px" x="0px" y="0px" viewBox="0 0 300 70">
@@ -592,13 +591,43 @@
       </div>
       <!-- FOOTER SECTION -->
       <?php include 'layout/footer.php' ?>
+      
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+    <form class="" id="ccform">
+        <h5 class="modal-title" id="exampleModalLabel">Register Your Business</h5>
+       
+      </div>
+      <div class="modal-body" id="cc_content">
+        <div>
+            <h5>Enter your details</h5>
+            <input type="text" class="form-control" name="name" placeholder="Names" required><br/>
+            <input type="email" class="form-control" name="email" placeholder="Email" required><br/>
+            <input type="number" class="form-control" name="phone" placeholder="Phone number" required><br/>
+            <input type="text" class="form-control" name="b_name" placeholder="Business Name" required><br/>
+            <input type="text" class="form-control" name="b_address" placeholder="Business Address" required><br/>
+            <textarea class="form-control" name="into" placeholder="What are you into?" required></textarea><br/>
+        </div>  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" name="submit" class="btn btn-success" id="cc_submit">Submit</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+      
+      <!-- Modal 1-->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
          <div class="modal-dialog" role="document">
             <div class="modal-content">
                <div class="modal-header">
-                  <form class="" id="ccform">
-                     <h5 class="modal-title" id="exampleModalLabel">Register Your Business</h5>
+                  <form class="" id="ccform1">
+                     <h5 class="modal-title" id="exampleModalLabel1">Request Pick n Drop</h5>
                </div>
                <div class="modal-body" id="cc_content">
                <div>
@@ -623,6 +652,7 @@
             </div>
          </div>
       </div>
+      
       <div style="display:none;" id="cc_success">
          <div style="text-align: center;">
             <h3>Order submitted</h3>
@@ -648,9 +678,9 @@
                keyboard: true
              });pi
              
-             $("form#ccform").submit(function( event ){ 
+             $("form#ccform1").submit(function( event ){ 
                  $('#cc_submit').html("Please Wait...").attr("disabled", true);
-                 var str = $("form#ccform").serializeArray();
+                 var str = $("form#ccform1").serializeArray();
                  $.ajax({
                      type: 'POST',
                      url: 'logic/send-delivery-request.php',
@@ -675,6 +705,8 @@
              });
          
          });
+         
       </script>
+   
    </body>
-</html>
+</html>     

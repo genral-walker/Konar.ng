@@ -19,7 +19,7 @@
               <!--<li><a href="https://food.konar.ng" target="_blank">KonarFoods</a></li>-->
             </ul>
           </li>
-          <li><a href="#">Blog</a></li>
+          <li class="to-foot"><a href="#foot">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -48,7 +48,7 @@
               <!--<a class="dropdown-item nav-submenu-item" href="https://food.konar.ng/" target="_blank">KonarFoods</a>-->
             </div>
           </span>
-          <span class="nav-menu-item d-none d-lg-block"><a href="#">Blog</a></span>
+          <span class="nav-menu-item d-none d-lg-block to-foot"><a href="#foot">Contact</a></span>
         </div>
         <div class="d-inline-block d-md-block d-lg-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px; z-index: 10"><a href="#" class="site-menu-toggle js-menu-toggle text-primary"><span class="icon-menu h3"></span></a></div>
       </div>

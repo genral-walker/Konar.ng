@@ -264,8 +264,8 @@
                             <div class="fh-section-title clearfix  text-left version-dark paddbtm30">
                               <h2 class="text-primary">Why Your Should Join Us Now</h2>
                             </div>
-                            <p>With the wealth of logistics companies all over the capital, you're probably looking for more ways to connect with businesses around you.</p>
-                            <p>Join our network of logistics companies today and make more deliveries as we connect you to more businesses in your location.</p>
+                            <p>With the wealth of logistics companies all over the city, you're probably looking for more ways to connect with businesses around you.</p>
+                            <p>Join our network of logistics companies and independent delivery agents today and make more deliveries as we connect you to more businesses in your location.</p>
             
                             <!--<div class="fh-section-title clearfix  text-left version-dark paddbtm30">-->
                             <!--    <h2>About Our Riders</h2>-->

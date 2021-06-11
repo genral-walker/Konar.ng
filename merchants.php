@@ -371,11 +371,11 @@
             event.preventDefault();
         });
         
-    });
+    }); 
 </script>
 
 <script>
-    $(function() {
+   $(function() {
         $("form#ccform").submit(function( event ){ 
             $('#cc_submit').html("Please Wait...").attr("disabled", true);
             var str = $("form#ccform").serializeArray();
@@ -402,7 +402,7 @@
             event.preventDefault();
         });
         
-    });
+    }); 
 </script>
     
   </body>

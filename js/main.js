@@ -239,4 +239,23 @@ jQuery(document).ready(function($) {
 	};
 	siteDatePicker();
 
+	// Smooth Scroll
+	
+	$(".to-foot").on('click', function(event) {
+
+		event.preventDefault();
+  
+		$('html, body').animate({
+		   scrollTop: $("#foot").offset().top
+		}, 900, function() {
+		   window.location.hash = "#foot";
+		});
+	 });
+
+	/*
+	delete smooth-scroll.php
+
+why isn't registration forms working
+	*/
+	
 });
