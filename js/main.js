@@ -251,11 +251,5 @@ jQuery(document).ready(function($) {
 		   window.location.hash = "#foot";
 		});
 	 });
-
-	/*
-	delete smooth-scroll.php
-
-why isn't registration forms working
-	*/
 	
 });
