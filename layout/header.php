@@ -25,9 +25,9 @@
     </div>
 
     <header>
-      <div class="header-container" style="padding: 0px 15px">
+      <div class="header-container" style="padding:.5rem 3rem">
         <div>
-          <a href="./"><img src="img/logo.png" style="max-width:100%;height:35px;"></a>
+          <a href="./"><img src="img/logo.png" style="height:36px;"></a> <!-- max-width:100%; -->  
         </div>
         
         
