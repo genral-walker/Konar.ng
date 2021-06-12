@@ -403,8 +403,11 @@
 
       </p>
 
-      <div class="points d-flex justify-content-between">
+      <div class="points d-flex flex-column flex-md-row justify-content-md-between">
          <div class="point">
+            <div class="user-desc-img-container mt-0 mb-3">
+               <img src="img/delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
+            </div>
             <h2 class="user-desc-title">On Demand Delivery</h2>
             <p>Technology</p>
             <p>Prompt Pickup and delivery</p>
@@ -413,12 +416,18 @@
             <p>Delivery agent rating</p>
          </div>
          <div class="point">
+            <div class="user-desc-img-container mt-0 mb-3">
+               <img src="img/track.png" alt="Partner with Konar Icon" class="user-desc-img">
+            </div>
             <h2 class="user-desc-title">Variety</h2>
             <p>Multiple delivery partners</p>
             <p>Affordable fees</p>
             <p>Variety of essential service providers</p>
          </div>
          <div class="point">
+            <div class="user-desc-img-container mt-0 mb-3">
+               <img src="img/request.png" alt="Partner with Konar Icon" class="user-desc-img">
+            </div>
             <h2 class="user-desc-title">Customer Focused</h2>
             <p>Excellent customer service</p>
             <p>Customer focused deals</p>
