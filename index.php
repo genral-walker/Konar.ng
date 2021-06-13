@@ -447,22 +447,22 @@
                <img src="img/map-phone.png" alt="Step 1" class="ml-4">
             </div>
             <h2 class="user-desc-title my-2">Request</h2>
-            <p>Make a Delivery request via Konar App</p>
+            <p class="user-desc-text">Make a Delivery request via Konar App.</p>
          </div>
          <div class="step step-2">
             <div class="img">
                <img src="img/completed-crop.png" class="image-fluid" alt="Step 2">
             </div>
             <h2 class="user-desc-title my-2">Pick Up</h2>
-            <p>Closest delivery partner, picks up the order and deliver to recipient. 
-               Track the movement via the app</p>
+            <p class="user-desc-text">Closest delivery partner, picks up the order and deliver to recipient. 
+               Track the movement via the app.</p>
          </div>
          <div class="step step-3">
             <div class="img">
                <img src="img/image10.png" class="image-fluid" alt="Step 3">
             </div>
             <h2 class="user-desc-title my-2">Delivery</h2>
-            <p>Your package arrives to you promptly</p>
+            <p class="user-desc-text">Your package arrives to you promptly.</p>
          </div>
       </div>
    </section>
@@ -560,7 +560,7 @@
    </div>
 
    <section class="register">
-      
+
    </section>
 
    <!-- FOOTER SECTION -->
