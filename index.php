@@ -388,7 +388,7 @@
    </section>
 
    <section class="overview">
-      <h2 class="objective sub-heading mb-5">Our Goal</h2>
+      <h2 class="sub-heading mb-5">Our Goal</h2>
       <p class="goal-statement mt-4 text-center">
          <span class="font-weight-bold">KONAR's big vision</span> is to provide a trusted on-demand last mile
          delivery delivery network of verified logistic companies that
@@ -435,6 +435,35 @@
          </div>
       </div>
 
+      </div>
+   </section>
+
+   <section class="how">
+      <h2 class="sub-heading mb-5">How Konar Works</h2>
+      <div class="steps">
+         <div class="step step-1">
+            <div class="img d-flex">
+               <img src="img/login-phone.png" alt="Step 1">
+               <img src="img/map-phone.png" alt="Step 1" class="ml-4">
+            </div>
+            <h2 class="user-desc-title my-2">Request</h2>
+            <p>Make a Delivery request via Konar App</p>
+         </div>
+         <div class="step step-2">
+            <div class="img">
+               <img src="img/completed-crop.png" class="image-fluid" alt="Step 2">
+            </div>
+            <h2 class="user-desc-title my-2">Pick Up</h2>
+            <p>Closest delivery partner, picks up the order and deliver to recipient. 
+               Track the movement via the app</p>
+         </div>
+         <div class="step step-3">
+            <div class="img">
+               <img src="img/image10.png" class="image-fluid" alt="Step 3">
+            </div>
+            <h2 class="user-desc-title my-2">Delivery</h2>
+            <p>Your package arrives to you promptly</p>
+         </div>
       </div>
    </section>
 
@@ -529,6 +558,11 @@
          </div>
       </div>
    </div>
+
+   <section class="register">
+      
+   </section>
+
    <!-- FOOTER SECTION -->
    <?php include 'layout/footer.php' ?>
 

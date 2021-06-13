@@ -643,20 +643,66 @@ svg#Layer_1 {
   transition: 0.4s;
 }
 
-
-@media (hover:hover) {
-    .point:hover {
-        background: white;
-        cursor: pointer;
-        transform: translateY(-5px);
-      }  
+@media (hover: hover) {
+  .point:hover {
+    background: white;
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
 }
 
-
 .points h2 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .points p {
   line-height: 1.1;
 }
+
+.how {
+  padding: 5.5rem 4rem 3.5rem;
+  /* background: #0c0c34; */
+  /* background: #d0443c; */
+}
+.how img {
+    width: 15rem;
+}
+
+.how .sub-heading::after {
+  left: 38%;
+}
+
+.how .steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    margin-top: 5rem;
+}
+
+.steps .step {
+   padding: 1.5rem 0;
+}
+.step-1 img:last-of-type {
+    position: relative;
+    top: 4rem;
+}
+.step-1 .img {
+margin-bottom: 5rem;
+}
+.step-2 {
+    transform: translateY(15rem);
+}
+.step-2 img, .step-3 img {
+width: 36rem;
+/* height: 10rem; */
+border-radius: 0 40px 0 0;
+}
+
+
+
+
+
+
+
+
+
