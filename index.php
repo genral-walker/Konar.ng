@@ -454,10 +454,10 @@
                <img src="img/completed-crop.png" class="image-fluid" alt="Step 2">
             </div>
             <h2 class="user-desc-title my-2">Pick Up</h2>
-            <p class="user-desc-text">Closest delivery partner, picks up the order and deliver to recipient. 
+            <p class="user-desc-text">Closest delivery partner, picks up the order and deliver to recipient.
                Track the movement via the app.</p>
          </div>
-         <div class="step step-3">
+         <div class="step step-3 mt-2">
             <div class="img">
                <img src="img/image10.png" class="image-fluid" alt="Step 3">
             </div>
@@ -469,7 +469,6 @@
 
    <div>
       <div class="user-desc">
-         <div class="container">
             <div>
                <div class="row">
 
@@ -556,11 +555,48 @@
                </div>
             </div>
          </div>
-      </div>
    </div>
 
-   <section class="register">
+   <section class="aboutsec-3 secpadd enquire">
+         <div class="row mb-5">
+            <div class="col-lg-12">
+               <div class="fh-section-title clearfix  text-center version-dark paddbtm30">
+                  <h2 class="sub-heading mb-5">Enquiry Form</h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-6" id="cc_content">
+               <!--<h3 class="login-heading mb-4">Register as a Rider</h3>-->
+               <p>If you have any questions about our service, please fill in this form. A customer care representative will get back to you soon.</p>
+               <form class="" id="ccform">
+                  <div class="form-label-group">
+                     <input type="text" id="inputName" class="form-control" placeholder="Full Name" required="" name="name">
+                     <label for="inputName">Full Name</label>
+                  </div>
 
+                  <div class="form-label-group">
+                     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" name="email">
+                     <label for="inputEmail">Email address</label>
+                  </div>
+
+                  <div class="form-label-group">
+                     <input type="number" id="inputPhone" class="form-control" placeholder="Phone Number" required="" name="phone">
+                     <label for="inputPhone">Phone Number</label>
+                  </div>
+
+                  <div class="form-label-group">
+                     <textarea id="inputQuestion" class="form-control" rows="3" placeholder="Question" name="question" style="border-radius: 50px; padding-top: 20px; padding-left: 20px;"></textarea>
+                  </div>
+                  <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit" id="cc_submit">Submit</button>
+               </form>
+            </div>
+            <div class="col-md-6">
+               <div class="abotimglft">
+                  <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0395.jpg" class="img-responsive">
+               </div>
+            </div>
+         </div>
    </section>
 
    <!-- FOOTER SECTION -->
