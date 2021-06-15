@@ -17,6 +17,7 @@
 // }
 ?>
 
+
 <!DOCTYPE html>
 <html>
 
@@ -441,7 +442,7 @@
 
    <section class="intro">
       <div class="row">
-         <div class="left col-lg-4 text-left">
+         <div class="left col-lg-4 text-left" data-aos="fade-right" data-aos-duration="1300">
             <h1 class="home-text-header mb-3">On-Demand Delivery Network</h1>
             <p class="lead mt-4">We bring reliable delivery companies and agents under one platform and give users the opportunity to access prompt delivery services closest to them.
 
@@ -509,11 +510,11 @@
          <div class="right col-lg-8">
 
             <div class="images d-flex justify-content-center justify-content-lg-end">
-               <img src="./img/phone-logo.png" class="img-fluid justify-self-start" loading="lazy" alt="into-picture">
+               <img  data-aos="fade-up" data-aos-delay="600" data-aos-duration="1300" src="./img/phone-logo.png" class="img-fluid justify-self-start" loading="lazy" alt="into-picture">
 
-               <img src="./img/login-phone.png" class="img-fluid" loading="lazy" alt="into-picture">
+               <img data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1300" src="./img/login-phone.png" class="img-fluid" loading="lazy" alt="into-picture">
 
-               <img src="./img/map-phone.png" class="img-fluid" loading="lazy" alt="into-picture">
+               <img data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1300" src="./img/map-phone.png" class="img-fluid" loading="lazy" alt="into-picture">
 
 
             </div>
@@ -522,8 +523,8 @@
    </section>
 
    <section class="overview">
-      <h2 class="sub-heading mb-5">Our Goal</h2>
-      <p class="goal-statement mt-4 text-md-center text-justify">
+      <h2 class="sub-heading mb-5" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">Our Goal</h2>
+      <p class="goal-statement mt-4 text-md-center text-justify" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
          <span class="font-weight-bold">KONAR's big vision</span> is to provide a trusted on-demand last mile
          delivery delivery network of verified logistic companies that
          guarantees prompt delivery.
@@ -538,7 +539,7 @@
       </p>
 
       <div class="points d-flex flex-column flex-md-row justify-content-md-between">
-         <div class="point">
+         <div class="point" data-aos="slide-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="user-desc-img-container mt-0 mb-3">
                <img src="img/delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
             </div>
@@ -549,7 +550,7 @@
             <p>Real time tracking </p>
             <p>Delivery agent rating</p>
          </div>
-         <div class="point">
+         <div class="point" data-aos="slide-up" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="user-desc-img-container mt-0 mb-3">
                <img src="img/track.png" alt="Partner with Konar Icon" class="user-desc-img">
             </div>
@@ -558,7 +559,7 @@
             <p>Affordable fees</p>
             <p>Variety of essential service providers</p>
          </div>
-         <div class="point">
+         <div class="point" data-aos="slide-up" data-aos-delay="400" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="user-desc-img-container mt-0 mb-3">
                <img src="img/request.png" alt="Partner with Konar Icon" class="user-desc-img">
             </div>
