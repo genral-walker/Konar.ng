@@ -297,6 +297,140 @@
             margin-top: -35px !important
          }
       }
+
+      :root {
+         --input-padding-x: 1.5rem;
+         --input-padding-y: 0.75rem;
+      }
+
+      .login,
+      .image {
+         min-height: 100vh;
+      }
+
+      .bg-image {
+         background-image: url('/konar_rider.jpg');
+         background-size: cover;
+         background-position: center;
+      }
+
+      .login-heading {
+         font-weight: 300;
+      }
+
+      .btn-login {
+         font-size: 0.9rem;
+         letter-spacing: 0.05rem;
+         padding: 0.75rem 1rem;
+         border-radius: 2rem;
+      }
+
+      .form-label-group {
+         position: relative;
+         margin-bottom: 1rem;
+      }
+
+      .form-label-group>input,
+      .form-label-group>label,
+      .form-label-group>select {
+         padding: var(--input-padding-y) var(--input-padding-x);
+         height: auto;
+         border-radius: 2rem;
+      }
+
+      /*select.form-control {
+    height: 50px;
+    border-radius: 2rem;
+    padding: var(--input-padding-y) var(--input-padding-x);
+}*/
+
+      .form-label-group>label {
+         position: absolute;
+         top: 0;
+         left: 0;
+         display: block;
+         width: 100%;
+         margin-bottom: 0;
+         /* Override default `<label>` margin */
+         line-height: 1.5;
+         color: #495057;
+         cursor: text;
+         /* Match the input under the label */
+         border: 1px solid transparent;
+         border-radius: .25rem;
+         transition: all .1s ease-in-out;
+      }
+
+      .form-label-group input::-webkit-input-placeholder {
+         color: transparent;
+      }
+
+      .form-label-group input:-ms-input-placeholder {
+         color: transparent;
+      }
+
+      .form-label-group input::-ms-input-placeholder {
+         color: transparent;
+      }
+
+      .form-label-group input::-moz-placeholder {
+         color: transparent;
+      }
+
+      .form-label-group input::placeholder {
+         color: transparent;
+      }
+
+      .form-label-group input:not(:placeholder-shown) {
+         padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+         padding-bottom: calc(var(--input-padding-y) / 3);
+      }
+
+      .form-label-group input:not(:placeholder-shown)~label {
+         padding-top: calc(var(--input-padding-y) / 3);
+         padding-bottom: calc(var(--input-padding-y) / 3);
+         font-size: 12px;
+         color: #777;
+      }
+
+      .form-label-group select:not(:placeholder-shown)~label {
+         padding-top: calc(var(--input-padding-y) / 3);
+         padding-bottom: calc(var(--input-padding-y) / 3);
+         font-size: 12px;
+         color: #777;
+      }
+
+      .register-as-select {
+         padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3)) !important;
+         padding-bottom: calc(var(--input-padding-y) / 3) !important;
+      }
+
+      /* Fallback for Edge
+-------------------------------------------------- */
+
+      @supports (-ms-ime-align: auto) {
+         .form-label-group>label {
+            display: none;
+         }
+
+         .form-label-group input::-ms-input-placeholder {
+            color: #777;
+         }
+      }
+
+      /* Fallback for IE
+-------------------------------------------------- */
+
+      @media all and (-ms-high-contrast: none),
+      (-ms-high-contrast: active) {
+         .form-label-group>label {
+            display: none;
+         }
+
+         .form-label-group input:-ms-input-placeholder {
+            color: #777;
+         }
+      }
    </style>
 
 </head>
@@ -307,7 +441,7 @@
 
    <section class="intro">
       <div class="row">
-         <div class="left col-lg-4">
+         <div class="left col-lg-4 text-left">
             <h1 class="home-text-header mb-3">On-Demand Delivery Network</h1>
             <p class="lead mt-4">We bring reliable delivery companies and agents under one platform and give users the opportunity to access prompt delivery services closest to them.
 
@@ -374,7 +508,7 @@
          </div>
          <div class="right col-lg-8">
 
-            <div class="images d-flex justify-content-end">
+            <div class="images d-flex justify-content-center justify-content-lg-end">
                <img src="./img/phone-logo.png" class="img-fluid justify-self-start" loading="lazy" alt="into-picture">
 
                <img src="./img/login-phone.png" class="img-fluid" loading="lazy" alt="into-picture">
@@ -389,7 +523,7 @@
 
    <section class="overview">
       <h2 class="sub-heading mb-5">Our Goal</h2>
-      <p class="goal-statement mt-4 text-center">
+      <p class="goal-statement mt-4 text-md-center text-justify">
          <span class="font-weight-bold">KONAR's big vision</span> is to provide a trusted on-demand last mile
          delivery delivery network of verified logistic companies that
          guarantees prompt delivery.
@@ -451,7 +585,7 @@
          </div>
          <div class="step step-2">
             <div class="img">
-               <img src="img/completed-crop.png" class="image-fluid" alt="Step 2">
+               <img src="img/order-complete.png" class="image-responsive image-fluid" alt="Step 2">
             </div>
             <h2 class="user-desc-title my-2">Pick Up</h2>
             <p class="user-desc-text">Closest delivery partner, picks up the order and deliver to recipient.
@@ -459,7 +593,7 @@
          </div>
          <div class="step step-3 mt-2">
             <div class="img">
-               <img src="img/image10.png" class="image-fluid" alt="Step 3">
+               <img src="img/konar-a3.jpg" class="image-fluid" alt="Step 3">
             </div>
             <h2 class="user-desc-title my-2">Delivery</h2>
             <p class="user-desc-text">Your package arrives to you promptly.</p>
@@ -469,134 +603,134 @@
 
    <div>
       <div class="user-desc">
-            <div>
-               <div class="row">
+         <div>
+            <div class="row">
 
-                  <div class="col-sm-12 col-md-4">
-                     <div class="user-desc-img-container">
-                        <img src="img/home-delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
-                        <!-- <img src="https://res.cloudinary.com/doordash/image/fetch/q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/consumer/home/landing/apply-callouts-assets/MxDesktop.png" alt="Partner with Konar Icon" class="user-desc-img"> -->
-                     </div>
-                     <div class="user-desc-container">
-                        <h2 class="user-desc-title">Customers</h2>
-                        <div class="user-desc-text">Make deliveries faster with konar. Find the closest rider to you now.</div>
-                        <div class="user-desc-cta">
-                           <div>
-                              <a href="#exampleModal1" data-toggle="modal" class="section-1234-btn user-desc-cta-link green">
-                                 <span class="section-1234-btn-span">
-                                    Request Konar
-                                    <svg id="Layer_1" height="14px" width="66px" x="0px" y="0px" viewBox="0 0 300 70">
-                                       <g fill="none" transform="translate(3, 3)" stroke="#00838a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+               <div class="col-sm-12 col-md-4">
+                  <div class="user-desc-img-container">
+                     <img src="img/home-delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
+                     <!-- <img src="https://res.cloudinary.com/doordash/image/fetch/q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/consumer/home/landing/apply-callouts-assets/MxDesktop.png" alt="Partner with Konar Icon" class="user-desc-img"> -->
+                  </div>
+                  <div class="user-desc-container">
+                     <h2 class="user-desc-title">Customers</h2>
+                     <div class="user-desc-text">Make deliveries faster with konar. Find the closest rider to you now.</div>
+                     <div class="user-desc-cta">
+                        <div>
+                           <a href="#exampleModal1" data-toggle="modal" class="section-1234-btn user-desc-cta-link green">
+                              <span class="section-1234-btn-span">
+                                 Request Konar
+                                 <svg id="Layer_1" height="14px" width="66px" x="0px" y="0px" viewBox="0 0 300 70">
+                                    <g fill="none" transform="translate(3, 3)" stroke="#00838a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                                       <polyline points="0 32 300 32 268 1"></polyline>
+                                       <g transform="translate(150, 47.500000) scale(1, -1) translate(-150, -47.500000) translate(0.000000, 31.000000)">
                                           <polyline points="0 32 300 32 268 1"></polyline>
-                                          <g transform="translate(150, 47.500000) scale(1, -1) translate(-150, -47.500000) translate(0.000000, 31.000000)">
-                                             <polyline points="0 32 300 32 268 1"></polyline>
-                                          </g>
                                        </g>
-                                    </svg>
-                                 </span>
-                              </a>
-                           </div>
+                                    </g>
+                                 </svg>
+                              </span>
+                           </a>
                         </div>
                      </div>
                   </div>
+               </div>
 
-                  <div class="col-sm-12 col-md-4">
-                     <div class="user-desc-img-container">
-                        <img src="img/delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
-                     </div>
-                     <div class="user-desc-container">
-                        <h2 class="user-desc-title">Delivery Partners</h2>
-                        <div class="user-desc-text">Join our network of delivery partners. Make deliveries for more businesses today.</div>
-                        <div class="user-desc-cta">
-                           <div>
-                              <a href="riders.php" class="section-1234-btn user-desc-cta-link red">
-                                 <span class="section-1234-btn-span">
-                                    Get Started
-                                    <svg id="Layer_1" height="14px" width="66px" x="0px" y="0px" viewBox="0 0 300 70">
-                                       <g fill="none" transform="translate(3, 3)" stroke="#00838a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+               <div class="col-sm-12 col-md-4">
+                  <div class="user-desc-img-container">
+                     <img src="img/delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
+                  </div>
+                  <div class="user-desc-container">
+                     <h2 class="user-desc-title">Delivery Partners</h2>
+                     <div class="user-desc-text">Join our network of delivery partners. Make deliveries for more businesses today.</div>
+                     <div class="user-desc-cta">
+                        <div>
+                           <a href="riders.php" class="section-1234-btn user-desc-cta-link red">
+                              <span class="section-1234-btn-span">
+                                 Get Started
+                                 <svg id="Layer_1" height="14px" width="66px" x="0px" y="0px" viewBox="0 0 300 70">
+                                    <g fill="none" transform="translate(3, 3)" stroke="#00838a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                                       <polyline points="0 32 300 32 268 1"></polyline>
+                                       <g transform="translate(150, 47.500000) scale(1, -1) translate(-150, -47.500000) translate(0.000000, 31.000000)">
                                           <polyline points="0 32 300 32 268 1"></polyline>
-                                          <g transform="translate(150, 47.500000) scale(1, -1) translate(-150, -47.500000) translate(0.000000, 31.000000)">
-                                             <polyline points="0 32 300 32 268 1"></polyline>
-                                          </g>
                                        </g>
-                                    </svg>
-                                 </span>
-                              </a>
-                           </div>
+                                    </g>
+                                 </svg>
+                              </span>
+                           </a>
                         </div>
                      </div>
                   </div>
-                  <div class="col-sm-12 col-md-4">
-                     <div class="user-desc-img-container">
-                        <img src="img/home-delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
-                     </div>
-                     <div class="user-desc-container">
-                        <h2 class="user-desc-title">Businesses</h2>
-                        <div class="user-desc-text">Register your business with konar delivery network. Offer door to door delivery services and boost your profit.</div>
-                        <div class="user-desc-cta">
-                           <div>
-                              <a href="#exampleModal" data-toggle="modal" class="section-1234-btn user-desc-cta-link black">
-                                 <span class="section-1234-btn-span">
-                                    Get Started
-                                    <svg id="Layer_1" height="14px" width="66px" x="0px" y="0px" viewBox="0 0 300 70">
-                                       <g fill="none" transform="translate(3, 3)" stroke="#00838a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+               </div>
+               <div class="col-sm-12 col-md-4">
+                  <div class="user-desc-img-container">
+                     <img src="img/home-delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
+                  </div>
+                  <div class="user-desc-container">
+                     <h2 class="user-desc-title">Businesses</h2>
+                     <div class="user-desc-text">Register your business with konar delivery network. Offer door to door delivery services and boost your profit.</div>
+                     <div class="user-desc-cta">
+                        <div>
+                           <a href="#exampleModal" data-toggle="modal" class="section-1234-btn user-desc-cta-link black">
+                              <span class="section-1234-btn-span">
+                                 Get Started
+                                 <svg id="Layer_1" height="14px" width="66px" x="0px" y="0px" viewBox="0 0 300 70">
+                                    <g fill="none" transform="translate(3, 3)" stroke="#00838a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                                       <polyline points="0 32 300 32 268 1"></polyline>
+                                       <g transform="translate(150, 47.500000) scale(1, -1) translate(-150, -47.500000) translate(0.000000, 31.000000)">
                                           <polyline points="0 32 300 32 268 1"></polyline>
-                                          <g transform="translate(150, 47.500000) scale(1, -1) translate(-150, -47.500000) translate(0.000000, 31.000000)">
-                                             <polyline points="0 32 300 32 268 1"></polyline>
-                                          </g>
                                        </g>
-                                    </svg>
-                                 </span>
-                              </a>
-                           </div>
+                                    </g>
+                                 </svg>
+                              </span>
+                           </a>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
+      </div>
    </div>
 
    <section class="aboutsec-3 secpadd enquire">
-         <div class="row mb-5">
-            <div class="col-lg-12">
-               <div class="fh-section-title clearfix  text-center version-dark paddbtm30">
-                  <h2 class="sub-heading mb-5">Enquiry Form</h2>
-               </div>
+      <div class="row mb-5">
+         <div class="col-lg-12">
+            <div class="fh-section-title clearfix  text-center version-dark paddbtm30">
+               <h2 class="sub-heading mb-5">Enquiry Form</h2>
             </div>
          </div>
-         <div class="row">
-            <div class="col-md-6" id="cc_content">
-               <!--<h3 class="login-heading mb-4">Register as a Rider</h3>-->
-               <p>If you have any questions about our service, please fill in this form. A customer care representative will get back to you soon.</p>
-               <form class="" id="ccform">
-                  <div class="form-label-group">
-                     <input type="text" id="inputName" class="form-control" placeholder="Full Name" required="" name="name">
-                     <label for="inputName">Full Name</label>
-                  </div>
-
-                  <div class="form-label-group">
-                     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" name="email">
-                     <label for="inputEmail">Email address</label>
-                  </div>
-
-                  <div class="form-label-group">
-                     <input type="number" id="inputPhone" class="form-control" placeholder="Phone Number" required="" name="phone">
-                     <label for="inputPhone">Phone Number</label>
-                  </div>
-
-                  <div class="form-label-group">
-                     <textarea id="inputQuestion" class="form-control" rows="3" placeholder="Question" name="question" style="border-radius: 50px; padding-top: 20px; padding-left: 20px;"></textarea>
-                  </div>
-                  <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit" id="cc_submit">Submit</button>
-               </form>
-            </div>
-            <div class="col-md-6">
-               <div class="abotimglft">
-                  <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0395.jpg" class="img-responsive">
+      </div>
+      <div class="row">
+         <div class="col-md-6" id="cc_content">
+            <!--<h3 class="login-heading mb-4">Register as a Rider</h3>-->
+            <p>If you have any questions about our service, please fill in this form. A customer care representative will get back to you soon.</p>
+            <form class="" id="ccform">
+               <div class="form-label-group">
+                  <input type="text" id="inputName" class="form-control" placeholder="Full Name" required="" name="name">
+                  <label for="inputName">Full Name</label>
                </div>
+
+               <div class="form-label-group">
+                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" name="email">
+                  <label for="inputEmail">Email address</label>
+               </div>
+
+               <div class="form-label-group">
+                  <input type="number" id="inputPhone" class="form-control" placeholder="Phone Number" required="" name="phone">
+                  <label for="inputPhone">Phone Number</label>
+               </div>
+
+               <div class="form-label-group">
+                  <textarea id="inputQuestion" class="form-control" rows="3" placeholder="Question" name="question" style="border-radius: 50px; padding-top: 20px; padding-left: 20px;"></textarea>
+               </div>
+               <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit" id="cc_submit">Submit</button>
+            </form>
+         </div>
+         <div class="col-md-6 mt-md-0 mt-5">
+            <div class="abotimglft">
+               <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0395.jpg" class="img-responsive">
             </div>
          </div>
+      </div>
    </section>
 
    <!-- FOOTER SECTION -->
@@ -718,6 +852,18 @@
       });
    </script>
 
+   <script>
+      $(".to-foot").on('click', function(event) {
+
+         event.preventDefault();
+
+         $('html, body').animate({
+            scrollTop: $("#foot").offset().top
+         }, 900, function() {
+            window.location.hash = "#foot";
+         });
+      });
+   </script>
 </body>
 
 </html>
