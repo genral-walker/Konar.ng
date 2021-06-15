@@ -685,7 +685,8 @@ svg#Layer_1 {
   margin-bottom: 5rem;
 }
 .step-2 {
-  transform: translateY(15rem);
+  position: relative;
+  top: 15rem;
 }
 .step-2 img,
 .step-3 img {
@@ -874,7 +875,7 @@ svg#Layer_1 {
   }
 
   .step-2 {
-    transform: translateY(0);
+    top: 0;
     margin-top: 3rem;
   }
 

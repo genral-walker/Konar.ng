@@ -539,7 +539,7 @@
       </p>
 
       <div class="points d-flex flex-column flex-md-row justify-content-md-between">
-         <div class="point" data-aos="slide-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+         <div class="point" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="user-desc-img-container mt-0 mb-3">
                <img src="img/delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
             </div>
@@ -550,7 +550,7 @@
             <p>Real time tracking </p>
             <p>Delivery agent rating</p>
          </div>
-         <div class="point" data-aos="slide-up" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+         <div class="point" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="user-desc-img-container mt-0 mb-3">
                <img src="img/track.png" alt="Partner with Konar Icon" class="user-desc-img">
             </div>
@@ -559,7 +559,7 @@
             <p>Affordable fees</p>
             <p>Variety of essential service providers</p>
          </div>
-         <div class="point" data-aos="slide-up" data-aos-delay="400" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+         <div class="point" data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="user-desc-img-container mt-0 mb-3">
                <img src="img/request.png" alt="Partner with Konar Icon" class="user-desc-img">
             </div>
@@ -574,9 +574,9 @@
    </section>
 
    <section class="how">
-      <h2 class="sub-heading mb-5">How Konar Works</h2>
+      <h2 class="sub-heading mb-5"data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">How Konar Works</h2>
       <div class="steps">
-         <div class="step step-1">
+         <div class="step step-1" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="img d-flex">
                <img src="img/login-phone.png" alt="Step 1">
                <img src="img/map-phone.png" alt="Step 1" class="ml-4">
@@ -584,7 +584,7 @@
             <h2 class="user-desc-title my-2">Request</h2>
             <p class="user-desc-text">Make a Delivery request via Konar App.</p>
          </div>
-         <div class="step step-2">
+         <div class="step step-2" data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="img">
                <img src="img/order-complete.png" class="image-responsive image-fluid" alt="Step 2">
             </div>
@@ -592,7 +592,7 @@
             <p class="user-desc-text">Closest delivery partner, picks up the order and deliver to recipient.
                Track the movement via the app.</p>
          </div>
-         <div class="step step-3 mt-2">
+         <div class="step step-3 mt-2" data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="img">
                <img src="img/konar-a3.jpg" class="image-fluid" alt="Step 3">
             </div>
@@ -607,7 +607,7 @@
          <div>
             <div class="row">
 
-               <div class="col-sm-12 col-md-4">
+               <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
                   <div class="user-desc-img-container">
                      <img src="img/home-delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
                      <!-- <img src="https://res.cloudinary.com/doordash/image/fetch/q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/consumer/home/landing/apply-callouts-assets/MxDesktop.png" alt="Partner with Konar Icon" class="user-desc-img"> -->
@@ -635,7 +635,7 @@
                   </div>
                </div>
 
-               <div class="col-sm-12 col-md-4">
+               <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
                   <div class="user-desc-img-container">
                      <img src="img/delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
                   </div>
@@ -661,7 +661,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-sm-12 col-md-4">
+               <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-center" data-aos-duration="1300">
                   <div class="user-desc-img-container">
                      <img src="img/home-delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
                   </div>
@@ -694,14 +694,14 @@
 
    <section class="aboutsec-3 secpadd enquire">
       <div class="row mb-5">
-         <div class="col-lg-12">
+         <div class="col-lg-12" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="fh-section-title clearfix  text-center version-dark paddbtm30">
                <h2 class="sub-heading mb-5">Enquiry Form</h2>
             </div>
          </div>
       </div>
       <div class="row">
-         <div class="col-md-6" id="cc_content">
+         <div class="col-md-6" id="cc_content" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <!--<h3 class="login-heading mb-4">Register as a Rider</h3>-->
             <p>If you have any questions about our service, please fill in this form. A customer care representative will get back to you soon.</p>
             <form class="" id="ccform">
@@ -726,7 +726,7 @@
                <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit" id="cc_submit">Submit</button>
             </form>
          </div>
-         <div class="col-md-6 mt-md-0 mt-5">
+         <div class="col-md-6 mt-md-0 mt-5" data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="abotimglft">
                <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0395.jpg" class="img-responsive">
             </div>
