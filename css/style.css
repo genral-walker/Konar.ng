@@ -571,6 +571,7 @@ svg#Layer_1 {
 
 .intro img {
   width: 15rem;
+  height: auto;
 }
 .intro img:not(:first-of-type) {
   margin-left: 1.5rem;
@@ -673,10 +674,12 @@ svg#Layer_1 {
   position: relative;
   top: 15rem;
 }
+.step-1 img {
+height: auto;
+}
 .step-2 img,
 .step-3 img {
   width: 36rem;
-  /* height: 10rem; */
   border-radius: 0 40px 0 0;
 }
 
