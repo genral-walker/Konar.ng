@@ -24,7 +24,7 @@
 						<div class="footer-content">
 							<ul class="footer-list">
 								<li><a href="riders.php">Become a Rider</a></li>
-								<li><a href="#exampleModal" data-toggle="modal">Register as a Business</a></li>
+								<li><a href="#modal-register" data-toggle="modal">Register as a Business</a></li>
 								<!--<li><a href="https://food.konar.ng/register" target="_blank">Register Your Restaurant</a></li>-->
 								<!--<li><a href="https://food.konar.ng" target="_blank">Visit KonarFoods</a></li>-->
 							</ul>

@@ -510,7 +510,7 @@
          <div class="right col-lg-8">
 
             <div class="images d-flex justify-content-center justify-content-lg-end">
-               <img  data-aos="fade-up" data-aos-delay="600" data-aos-duration="1300" src="./img/phone-logo.png" class="img-fluid justify-self-start" loading="lazy" alt="into-picture">
+               <img data-aos="fade-up" data-aos-delay="600" data-aos-duration="1300" src="./img/phone-logo.png" class="img-fluid justify-self-start" loading="lazy" alt="into-picture">
 
                <img data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1300" src="./img/login-phone.png" class="img-fluid" loading="lazy" alt="into-picture">
 
@@ -574,7 +574,7 @@
    </section>
 
    <section class="how">
-      <h2 class="sub-heading mb-5"data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">How Konar Works</h2>
+      <h2 class="sub-heading mb-5" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">How Konar Works</h2>
       <div class="steps">
          <div class="step step-1" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="img d-flex">
@@ -617,7 +617,7 @@
                      <div class="user-desc-text">Make deliveries faster with konar. Find the closest rider to you now.</div>
                      <div class="user-desc-cta">
                         <div>
-                           <a href="#exampleModal1" data-toggle="modal" class="section-1234-btn user-desc-cta-link green">
+                           <a href="#exampleModal" data-toggle="modal" class="section-1234-btn user-desc-cta-link green">
                               <span class="section-1234-btn-span">
                                  Request Konar
                                  <svg id="Layer_1" height="14px" width="66px" x="0px" y="0px" viewBox="0 0 300 70">
@@ -670,7 +670,7 @@
                      <div class="user-desc-text">Register your business with konar delivery network. Offer door to door delivery services and boost your profit.</div>
                      <div class="user-desc-cta">
                         <div>
-                           <a href="#exampleModal" data-toggle="modal" class="section-1234-btn user-desc-cta-link black">
+                           <a href="#modal-register" data-toggle="modal" class="section-1234-btn user-desc-cta-link black">
                               <span class="section-1234-btn-span">
                                  Get Started
                                  <svg id="Layer_1" height="14px" width="66px" x="0px" y="0px" viewBox="0 0 300 70">
@@ -701,10 +701,10 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-md-6" id="cc_content" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+         <div class="col-md-6" id="cc_content-enquire" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <!--<h3 class="login-heading mb-4">Register as a Rider</h3>-->
             <p>If you have any questions about our service, please fill in this form. A customer care representative will get back to you soon.</p>
-            <form class="" id="ccform">
+            <form class="" id="enquire">
                <div class="form-label-group">
                   <input type="text" id="inputName" class="form-control" placeholder="Full Name" required="" name="name">
                   <label for="inputName">Full Name</label>
@@ -723,7 +723,7 @@
                <div class="form-label-group">
                   <textarea id="inputQuestion" class="form-control" rows="3" placeholder="Question" name="question" style="border-radius: 50px; padding-top: 20px; padding-left: 20px;"></textarea>
                </div>
-               <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit" id="cc_submit">Submit</button>
+               <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2 btn-enquire" type="submit">Submit</button>
             </form>
          </div>
          <div class="col-md-6 mt-md-0 mt-5" data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement="top-center" data-aos-duration="1300">
@@ -737,16 +737,16 @@
    <!-- FOOTER SECTION -->
    <?php include 'layout/footer.php' ?>
 
-   <!-- Modal -->
-   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal Register-->
+   <div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="modal-registerLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
          <div class="modal-content">
             <div class="modal-header">
-               <form class="" id="ccform">
-                  <h5 class="modal-title" id="exampleModalLabel">Register Your Business</h5>
+               <form class="" id="register">
+                  <h5 class="modal-title" id="modal-registerLabel">Register Your Business</h5>
 
             </div>
-            <div class="modal-body" id="cc_content">
+            <div class="modal-body" id="cc_content-register">
                <div>
                   <h5>Enter your details</h5>
                   <input type="text" class="form-control" name="name" placeholder="Names" required><br />
@@ -759,22 +759,23 @@
             </div>
             <div class="modal-footer">
                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-               <button type="submit" name="submit" class="btn btn-success" id="cc_submit">Submit</button>
+               <button type="submit" name="submit" class="btn btn-success btn-register">Submit</button>
             </div>
             </form>
          </div>
       </div>
    </div>
 
-   <!-- Modal 1-->
-   <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+
+   <!-- Modal Pick N Drop-->
+   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
          <div class="modal-content">
             <div class="modal-header">
-               <form class="" id="ccform1">
-                  <h5 class="modal-title" id="exampleModalLabel1">Request Pick n Drop</h5>
+               <form class="" id="pickndrop">
+                  <h5 class="modal-title" id="exampleModalLabel">Request Pick n Drop</h5>
             </div>
-            <div class="modal-body" id="cc_content">
+            <div class="modal-body" id="cc_content-pickndrop">
                <div>
                   <h5>Enter your details</h5>
                   <input type="text" class="form-control" name="name" placeholder="Names" required><br />
@@ -791,7 +792,7 @@
             </div>
             <div class="modal-footer">
                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-               <button type="submit" name="submit" class="btn btn-success" id="cc_submit">Submit</button>
+               <button type="submit" name="submit" class="btn btn-success btn-pickndrop">Submit</button>
             </div>
             </form>
          </div>
@@ -807,6 +808,7 @@
          <div><strong>0802 712 0000, 0808 952 0000</strong></div>
       </div>
    </div>
+
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -822,24 +824,41 @@
             pause: false,
             keyboard: true
          });
-         pi
 
-         $("form#ccform1").submit(function(event) {
-            $('#cc_submit').html("Please Wait...").attr("disabled", true);
-            var str = $("form#ccform1").serializeArray();
+         const checkRequestType = type => {
+            console.log(type)
+            switch (type) {
+               case 'enquire':
+                  return 'logic/send-enquiry.php';
+
+               case 'register':
+                  return 'logic/be-a-merchant-request.php';
+
+               case 'pickndrop':
+                  return 'logic/send-delivery-request.php';
+
+               default:
+                  break;
+            }
+         };
+
+         $("form").submit(function(event) {
+            console.log(event.target);
+            $(`.btn-${event.target.id}`).html("Please Wait...").attr("disabled", true);
+            var str = $(event.target).serializeArray();
             $.ajax({
                type: 'POST',
-               url: 'logic/send-delivery-request.php',
+               url: checkRequestType(event.target.id),
                data: str,
                cache: false,
                success: function(data) {
                   var result = data;
                   if (result == "successful") {
-                     $('#cc_content').html($('#cc_success').html());
-                     $('#cc_submit').remove();
+                     $(`#cc_content-${event.target.id}`).html($('#cc_success').html());
+                     $(`.btn-${event.target.id}`).remove();
                   } else {
                      alert("Request Not Successful. Try again.");
-                     $('#cc_submit').html("Try Again").attr("disabled", false);
+                     $(`.btn-${event.target.id}`).html("Try Again").attr("disabled", false);
                   }
                },
                error: function(err) {

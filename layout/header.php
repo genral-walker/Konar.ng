@@ -42,7 +42,7 @@
             <a href="#" class="dropdown-toggle" id="patner-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partner</a>
             <div class="dropdown-menu dropdown-menu-right nav-submenu" aria-labelledby="patner-menu">
               <a class="dropdown-item nav-submenu-item" href="riders.php">Become a delivery partner</a>
-              <a class="dropdown-item nav-submenu-item" href="#exampleModal" data-toggle="modal">Register as a Business</a>
+              <a class="dropdown-item nav-submenu-item" href="#modal-register" data-toggle="modal">Register as a Business</a>
               <!--<a class="dropdown-item nav-submenu-item" href="https://food.konar.ng/register" target="_blank">Register Your Restaurant</a>-->
               <!--<div class="dropdown-divider"></div>-->
               <!--<a class="dropdown-item nav-submenu-item" href="https://food.konar.ng/" target="_blank">KonarFoods</a>-->
