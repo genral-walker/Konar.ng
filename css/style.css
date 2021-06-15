@@ -829,7 +829,7 @@ svg#Layer_1 {
     margin: 3rem 0;
   }
   .intro img {
-    width: 14rem;
+    width: 33%;
   }
 }
 
@@ -893,11 +893,6 @@ svg#Layer_1 {
   }
 }
 
-@media (max-width: 850px) {
-  .intro img {
-    width: 9rem;
-  }
-}
 
 @media (max-width: 830px) {
   .how .steps {
@@ -982,13 +977,15 @@ svg#Layer_1 {
   .intro {
     padding: 0.5rem 2rem;
   }
-  .intro img {
-    width: 8rem;
-  }
   .header-container {
     padding: 0.5rem 2rem !important;
   }
-
+  .intro img {
+    width: 34%;
+  }
+  .intro img:not(:first-of-type) {
+    margin-left: .5rem;
+}
   .overview {
     padding: 5.5rem 2rem 6.5rem;
   }
@@ -1018,12 +1015,6 @@ svg#Layer_1 {
     display: block !important;
     width: 100%;
   }
-  .intro img {
-    width: 6rem;
-  }
-  .intro img:not(:first-of-type) {
-    margin-left: 1rem;
-  }
   .intro button:last-of-type {
     margin-left: 0;
     margin-top: 1rem;
@@ -1043,10 +1034,12 @@ svg#Layer_1 {
   .intro h1 {
     font-size: 2.2rem;
   }
-}
-
-@media (max-width: 360px) {
   .intro img {
-    width: 5rem;
+    width: 35%;
   }
 }
+
+
+
+
+

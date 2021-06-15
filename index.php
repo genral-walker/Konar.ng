@@ -578,15 +578,15 @@
       <div class="steps">
          <div class="step step-1" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="img d-flex">
-               <img src="img/login-phone.png" alt="Step 1">
-               <img src="img/map-phone.png" alt="Step 1" class="ml-4">
+               <img src="img/login-phone.png" alt="Step 1" loading="lazy">
+               <img src="img/map-phone.png" alt="Step 1" class="ml-4" loading="lazy">
             </div>
             <h2 class="user-desc-title my-2">Request</h2>
             <p class="user-desc-text">Make a Delivery request via Konar App.</p>
          </div>
          <div class="step step-2" data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="img">
-               <img src="img/order-complete.png" class="image-responsive image-fluid" alt="Step 2">
+               <img src="img/order-complete.png" class="image-responsive image-fluid" alt="Step 2" loading="lazy">
             </div>
             <h2 class="user-desc-title my-2">Pick Up</h2>
             <p class="user-desc-text">Closest delivery partner, picks up the order and deliver to recipient.
@@ -594,7 +594,7 @@
          </div>
          <div class="step step-3 mt-2" data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="img">
-               <img src="img/konar-a3.jpg" class="image-fluid" alt="Step 3">
+               <img src="img/konar-a3.jpg" class="image-fluid" alt="Step 3" loading="lazy">
             </div>
             <h2 class="user-desc-title my-2">Delivery</h2>
             <p class="user-desc-text">Your package arrives to you promptly.</p>
@@ -728,7 +728,7 @@
          </div>
          <div class="col-md-6 mt-md-0 mt-5" data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement="top-center" data-aos-duration="1300">
             <div class="abotimglft">
-               <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0395.jpg" class="img-responsive">
+               <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0395.jpg" loading="lazy" class="img-responsive">
             </div>
          </div>
       </div>
