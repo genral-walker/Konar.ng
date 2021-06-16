@@ -696,6 +696,10 @@ svg#Layer_1 {
   border-radius: 0 40px 0 0;
 }
 
+.enquire button {
+  width: 30%;
+}
+
 @media (max-width: 1350px) {
   .intro img {
     width: 14rem;
@@ -956,6 +960,9 @@ svg#Layer_1 {
   .enquire .sub-heading::after {
     left: 38%;
   }
+  .enquire button {
+    width: 37%;
+  }
 
 }
 
@@ -990,11 +997,17 @@ svg#Layer_1 {
   .step-1 img {
     height: 14rem;
   }
+  .enquire button {
+    width: 40%;
+  }
 }
 
 @media (max-width: 350px) {
   .intro img {
     height: 11rem;
+  }
+  .enquire button {
+    width: 45%;
   }
 }
 
@@ -1009,5 +1022,9 @@ svg#Layer_1 {
 @media (max-width: 315px) {
   .step-1 img {
     height: 11.5rem;
+  }
+  
+  .enquire button {
+    width: 50%;
   }
 }

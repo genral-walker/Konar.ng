@@ -583,14 +583,14 @@
                   <img src="img/login-phone.png" alt="Step 1" loading="lazy">
                   <img src="img/map-phone.png" alt="Step 1" class="ml-4" loading="lazy">
                </div>
-               <h2 class="user-desc-title my-2">Request</h2>
-               <p class="user-desc-text">Make a Delivery request via Konar App.</p>
+               <h2 class="user-desc-title my-2">STEP 1:  Request</h2>
+               <p class="user-desc-text">Schedule a single or multiple delivery request via Konar app.</p>
             </div>
             <div class="step step-2" data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
                <div class="img">
                   <img src="img/order-complete.png" class="image-responsive image-fluid" alt="Step 2" loading="lazy">
                </div>
-               <h2 class="user-desc-title my-2">Pick Up</h2>
+               <h2 class="user-desc-title my-2">STEP 2:  Pick Up</h2>
                <p class="user-desc-text">Closest delivery partner, picks up the order and deliver to recipient.
                   Track the movement via the app.</p>
             </div>
@@ -598,8 +598,8 @@
                <div class="img">
                   <img src="img/konar-a3.jpg" class="image-fluid" alt="Step 3" loading="lazy">
                </div>
-               <h2 class="user-desc-title my-2">Delivery</h2>
-               <p class="user-desc-text">Your package arrives to you promptly.</p>
+               <h2 class="user-desc-title my-2">STEP 3:  Delivery</h2>
+               <p class="user-desc-text">Your package arrives to you promptly.🙂</p>
             </div>
          </div>
       </div>
@@ -667,7 +667,7 @@
                </div>
                <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-center" data-aos-duration="1300">
                   <div class="user-desc-img-container">
-                     <img src="img/home-delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
+                     <img src="img/shop.svg" alt="Partner with Konar Icon" class="user-desc-img">
                   </div>
                   <div class="user-desc-container">
                      <h2 class="user-desc-title">Businesses</h2>
