@@ -672,14 +672,17 @@ svg#Layer_1 {
 }
 .step-2 {
   position: relative;
-  top: 15rem;
+  top: 14rem;
 }
 .step-1 img {
-height: auto;
+  height: auto;
+}
+.step-2 img {
+  height: 25rem;
 }
 .step-2 img,
 .step-3 img {
-  width: 36rem;
+  width: 100%;
   border-radius: 0 40px 0 0;
 }
 
@@ -701,12 +704,6 @@ height: auto;
     width: 14rem;
   }
 }
-@media (max-width: 1340px) {
-  .step-2 img,
-  .step-3 img {
-    width: 35rem;
-  }
-}
 
 @media (max-width: 1300px) {
   .intro img {
@@ -714,24 +711,6 @@ height: auto;
   }
   .step-1 img {
     width: 13rem;
-  }
-  .step-2 img,
-  .step-3 img {
-    width: 34rem;
-  }
-}
-
-@media (max-width: 1280px) {
-  .step-2 img,
-  .step-3 img {
-    width: 33rem;
-  }
-}
-
-@media (max-width: 1240px) {
-  .step-2 img,
-  .step-3 img {
-    width: 31rem;
   }
 }
 
@@ -745,12 +724,9 @@ height: auto;
   .step-1 img {
     width: 12rem;
   }
-}
 
-@media (max-width: 1160px) {
-  .step-2 img,
-  .step-3 img {
-    width: 29rem;
+  .step-2 img {
+    height: 20rem;
   }
 }
 
@@ -763,41 +739,31 @@ height: auto;
   }
 }
 
-@media (max-width: 1100px) {
-  .step-2 img,
-  .step-3 img {
-    width: 28rem;
-  }
-}
-
 @media (max-width: 1040px) {
   .how .steps {
     column-gap: 3rem;
   }
 
-  .step-2 img,
-  .step-3 img {
-    width: 27rem;
+  .overview .point {
+    flex: 0 0 31%;
   }
   .enquire .sub-heading::after {
     left: 30%;
   }
+
 }
 
-@media (max-width: 1020px) {
-  .step-2 img,
-  .step-3 img {
-    width: 26rem;
-  }
-}
 
 @media (max-width: 1000px) {
   .points .point:not(:first-of-type) {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
   }
 
   .point {
     padding: 2rem 0.9rem;
+  }
+  .step-2 img {
+    height: 14rem;
   }
 }
 
@@ -818,34 +784,7 @@ height: auto;
   }
   .intro img {
     width: 33%;
-  }
-}
-
-@media (max-width: 985px) {
-  .step-2 img,
-  .step-3 img {
-    width: 25rem;
-  }
-}
-
-@media (max-width: 950px) {
-  .step-2 img,
-  .step-3 img {
-    width: 24rem;
-  }
-}
-
-@media (max-width: 920px) {
-  .step-2 img,
-  .step-3 img {
-    width: 23rem;
-  }
-}
-
-@media (max-width: 900px) {
-  .step-2 img,
-  .step-3 img {
-    width: 22rem;
+    height: 31rem;
   }
 }
 
@@ -873,14 +812,19 @@ height: auto;
 
   .step-1 img {
     width: 17rem;
+    height: 33.5rem;
   }
 
-  .step-2 img,
-  .step-3 img {
-    width: 36rem;
+  .step-2 img {
+    height: auto;
   }
 }
 
+@media (max-width: 840px) {
+  .intro img {
+    height: 28rem;
+  }
+}
 
 @media (max-width: 830px) {
   .how .steps {
@@ -913,52 +857,49 @@ height: auto;
   }
 }
 
+@media (max-width: 730px) {
+  .intro img {
+    height: 24rem;
+  }
+}
+
 @media (max-width: 700px) {
   .how .steps {
     padding: 0;
   }
-
+  .intro img {
+    height: 20rem;
+  }
   .step-1 img {
     width: 17rem;
-  }
-
-  .step-2 img,
-  .step-3 img {
-    width: 36rem;
   }
 }
 
 @media (max-width: 680px) {
   .step-1 img {
     width: 15rem;
-  }
-
-  .step-2 img,
-  .step-3 img {
-    width: 34rem;
+    height: 30rem;
   }
 }
 
 @media (max-width: 650px) {
   .step-1 img {
     width: 13rem;
-  }
-
-  .step-2 img,
-  .step-3 img {
-    width: 31rem;
+    height: 26rem;
   }
 }
 
 @media (max-width: 600px) {
-  .step-1 img {
-    width: 12rem;
+
+  .intro img {
+    height: 17rem;
   }
 
-  .step-2 img,
-  .step-3 img {
-    width: 29rem;
+  .step-1 img {
+    width: 12rem;
+    height: 23rem;
   }
+  
 }
 
 @media (max-width: 550px) {
@@ -972,8 +913,8 @@ height: auto;
     width: 34%;
   }
   .intro img:not(:first-of-type) {
-    margin-left: .5rem;
-}
+    margin-left: 0.5rem;
+  }
   .overview {
     padding: 5.5rem 2rem 6.5rem;
   }
@@ -991,11 +932,6 @@ height: auto;
   .step-1 img {
     width: 45%;
   }
-
-  .step-2 img,
-  .step-3 img {
-    width: 100%;
-  }
 }
 
 @media (max-width: 475px) {
@@ -1007,6 +943,10 @@ height: auto;
     margin-left: 0;
     margin-top: 1rem;
   }
+  
+  .step-1 img {
+    height: 21rem;
+  }
 
   .sub-heading {
     width: 100%;
@@ -1015,6 +955,19 @@ height: auto;
 
   .enquire .sub-heading::after {
     left: 38%;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .step-1 img {
+    height: 19rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro img {
+    height: 15rem;
   }
 }
 
@@ -1025,9 +978,36 @@ height: auto;
   .intro img {
     width: 35%;
   }
+  .step-1 img {
+    height: 16rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro img {
+    height: 13rem;
+  }
+  .step-1 img {
+    height: 14rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .intro img {
+    height: 11rem;
+  }
 }
 
 
+@media (max-width: 330px) {
+  .step-1 img {
+    height: 12.5rem;
+  }
+}
 
 
-
+@media (max-width: 315px) {
+  .step-1 img {
+    height: 11.5rem;
+  }
+}

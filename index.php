@@ -523,88 +523,92 @@
    </section>
 
    <section class="overview">
-      <h2 class="sub-heading mb-5" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">Our Goal</h2>
-      <p class="goal-statement mt-4 text-md-center text-justify" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-         <span class="font-weight-bold">KONAR's big vision</span> is to provide a trusted on-demand last mile
-         delivery delivery network of verified logistic companies that
-         guarantees prompt delivery.
+      <div class="container">
+         <h2 class="sub-heading mb-5" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">Our Goal</h2>
+         <p class="goal-statement mt-4 text-md-center text-justify" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+            <span class="font-weight-bold">KONAR's big vision</span> is to provide a trusted on-demand last mile
+            delivery delivery network of verified logistic companies that
+            guarantees prompt delivery.
 
-         With our reliable network of delivery partners,
-         we provide business owners the opportunity to offer
-         smooth home delivery service to their customers.
+            With our reliable network of delivery partners,
+            we provide business owners the opportunity to offer
+            smooth home delivery service to their customers.
 
-         We will also empower lots of essential service providers
-         to offer prompt door to door delivery service to their customers.
+            We will also empower lots of essential service providers
+            to offer prompt door to door delivery service to their customers.
 
-      </p>
+         </p>
 
-      <div class="points d-flex flex-column flex-md-row justify-content-md-between">
-         <div class="point" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-            <div class="user-desc-img-container mt-0 mb-3">
-               <img src="img/delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
+         <div class="points d-flex flex-column flex-md-row justify-content-md-between">
+            <div class="point" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+               <div class="user-desc-img-container mt-0 mb-3">
+                  <img src="img/delivery.png" alt="Partner with Konar Icon" class="user-desc-img">
+               </div>
+               <h2 class="user-desc-title">On Demand Delivery</h2>
+               <p>Technology</p>
+               <p>Prompt Pickup and delivery</p>
+               <p>3PL Partnerships</p>
+               <p>Real time tracking </p>
+               <p>Delivery agent rating</p>
             </div>
-            <h2 class="user-desc-title">On Demand Delivery</h2>
-            <p>Technology</p>
-            <p>Prompt Pickup and delivery</p>
-            <p>3PL Partnerships</p>
-            <p>Real time tracking </p>
-            <p>Delivery agent rating</p>
-         </div>
-         <div class="point" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-            <div class="user-desc-img-container mt-0 mb-3">
-               <img src="img/track.png" alt="Partner with Konar Icon" class="user-desc-img">
+            <div class="point" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+               <div class="user-desc-img-container mt-0 mb-3">
+                  <img src="img/track.png" alt="Partner with Konar Icon" class="user-desc-img">
+               </div>
+               <h2 class="user-desc-title">Variety</h2>
+               <p>Multiple delivery partners</p>
+               <p>Affordable fees</p>
+               <p>Variety of essential service providers</p>
             </div>
-            <h2 class="user-desc-title">Variety</h2>
-            <p>Multiple delivery partners</p>
-            <p>Affordable fees</p>
-            <p>Variety of essential service providers</p>
-         </div>
-         <div class="point" data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-            <div class="user-desc-img-container mt-0 mb-3">
-               <img src="img/request.png" alt="Partner with Konar Icon" class="user-desc-img">
+            <div class="point" data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+               <div class="user-desc-img-container mt-0 mb-3">
+                  <img src="img/request.png" alt="Partner with Konar Icon" class="user-desc-img">
+               </div>
+               <h2 class="user-desc-title">Customer Focused</h2>
+               <p>Excellent customer service</p>
+               <p>Customer focused deals</p>
+               <p>Rating and review</p>
             </div>
-            <h2 class="user-desc-title">Customer Focused</h2>
-            <p>Excellent customer service</p>
-            <p>Customer focused deals</p>
-            <p>Rating and review</p>
          </div>
       </div>
-
       </div>
    </section>
 
    <section class="how">
-      <h2 class="sub-heading mb-5" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">How Konar Works</h2>
-      <div class="steps">
-         <div class="step step-1" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-            <div class="img d-flex">
-               <img src="img/login-phone.png" alt="Step 1" loading="lazy">
-               <img src="img/map-phone.png" alt="Step 1" class="ml-4" loading="lazy">
+      <div class="container">
+         <h2 class="sub-heading mb-5" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">How Konar Works</h2>
+         <div class="steps">
+            <div class="step step-1" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+               <div class="img d-flex">
+                  <img src="img/login-phone.png" alt="Step 1" loading="lazy">
+                  <img src="img/map-phone.png" alt="Step 1" class="ml-4" loading="lazy">
+               </div>
+               <h2 class="user-desc-title my-2">Request</h2>
+               <p class="user-desc-text">Make a Delivery request via Konar App.</p>
             </div>
-            <h2 class="user-desc-title my-2">Request</h2>
-            <p class="user-desc-text">Make a Delivery request via Konar App.</p>
-         </div>
-         <div class="step step-2" data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-            <div class="img">
-               <img src="img/order-complete.png" class="image-responsive image-fluid" alt="Step 2" loading="lazy">
+            <div class="step step-2" data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+               <div class="img">
+                  <img src="img/order-complete.png" class="image-responsive image-fluid" alt="Step 2" loading="lazy">
+               </div>
+               <h2 class="user-desc-title my-2">Pick Up</h2>
+               <p class="user-desc-text">Closest delivery partner, picks up the order and deliver to recipient.
+                  Track the movement via the app.</p>
             </div>
-            <h2 class="user-desc-title my-2">Pick Up</h2>
-            <p class="user-desc-text">Closest delivery partner, picks up the order and deliver to recipient.
-               Track the movement via the app.</p>
-         </div>
-         <div class="step step-3 mt-2" data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-            <div class="img">
-               <img src="img/konar-a3.jpg" class="image-fluid" alt="Step 3" loading="lazy">
+            <div class="step step-3 mt-2" data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+               <div class="img">
+                  <img src="img/konar-a3.jpg" class="image-fluid" alt="Step 3" loading="lazy">
+               </div>
+               <h2 class="user-desc-title my-2">Delivery</h2>
+               <p class="user-desc-text">Your package arrives to you promptly.</p>
             </div>
-            <h2 class="user-desc-title my-2">Delivery</h2>
-            <p class="user-desc-text">Your package arrives to you promptly.</p>
          </div>
       </div>
+
    </section>
 
    <div>
       <div class="user-desc">
-         <div>
+         <div class="container">
             <div class="row">
 
                <div class="col-sm-12 col-md-4" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
@@ -693,51 +697,54 @@
    </div>
 
    <section class="aboutsec-3 secpadd enquire">
-      <div class="row mb-5">
-         <div class="col-lg-12" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-            <div class="fh-section-title clearfix  text-center version-dark paddbtm30">
-               <h2 class="sub-heading mb-5">Enquiry Form</h2>
+      <div class="container">
+         <div class="row mb-5">
+            <div class="col-lg-12" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+               <div class="fh-section-title clearfix  text-center version-dark paddbtm30">
+                  <h2 class="sub-heading mb-5">Enquiry Form</h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-6" id="cc_content-enquire" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+               <!--<h3 class="login-heading mb-4">Register as a Rider</h3>-->
+               <p>If you have any questions about our service, please fill in this form. A customer care representative will get back to you soon.</p>
+               <form class="" id="enquire">
+                  <div class="form-label-group">
+                     <input type="text" id="inputName" class="form-control" placeholder="Full Name" required="" name="name">
+                     <label for="inputName">Full Name</label>
+                  </div>
+
+                  <div class="form-label-group">
+                     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" name="email">
+                     <label for="inputEmail">Email address</label>
+                  </div>
+
+                  <div class="form-label-group">
+                     <input type="number" id="inputPhone" class="form-control" placeholder="Phone Number" required="" name="phone">
+                     <label for="inputPhone">Phone Number</label>
+                  </div>
+
+                  <div class="form-label-group">
+                     <textarea id="inputQuestion" class="form-control" rows="3" placeholder="Question" name="question" style="border-radius: 50px; padding-top: 20px; padding-left: 20px;"></textarea>
+                  </div>
+                  <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2 btn-enquire" type="submit">Submit</button>
+               </form>
+            </div>
+            <div class="col-md-6 mt-md-0 mt-5" data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+               <div class="abotimglft">
+                  <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0395.jpg" loading="lazy" class="img-responsive">
+               </div>
             </div>
          </div>
       </div>
-      <div class="row">
-         <div class="col-md-6" id="cc_content-enquire" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-            <!--<h3 class="login-heading mb-4">Register as a Rider</h3>-->
-            <p>If you have any questions about our service, please fill in this form. A customer care representative will get back to you soon.</p>
-            <form class="" id="enquire">
-               <div class="form-label-group">
-                  <input type="text" id="inputName" class="form-control" placeholder="Full Name" required="" name="name">
-                  <label for="inputName">Full Name</label>
-               </div>
 
-               <div class="form-label-group">
-                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" name="email">
-                  <label for="inputEmail">Email address</label>
-               </div>
-
-               <div class="form-label-group">
-                  <input type="number" id="inputPhone" class="form-control" placeholder="Phone Number" required="" name="phone">
-                  <label for="inputPhone">Phone Number</label>
-               </div>
-
-               <div class="form-label-group">
-                  <textarea id="inputQuestion" class="form-control" rows="3" placeholder="Question" name="question" style="border-radius: 50px; padding-top: 20px; padding-left: 20px;"></textarea>
-               </div>
-               <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2 btn-enquire" type="submit">Submit</button>
-            </form>
-         </div>
-         <div class="col-md-6 mt-md-0 mt-5" data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-            <div class="abotimglft">
-               <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0395.jpg" loading="lazy" class="img-responsive">
-            </div>
-         </div>
-      </div>
    </section>
 
    <!-- FOOTER SECTION -->
    <?php include 'layout/footer.php' ?>
 
-    <!-- Modal Register-->
+   <!-- Modal Register-->
    <div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="modal-registerLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
          <div class="modal-content">
@@ -826,7 +833,6 @@
          });
 
          const checkRequestType = type => {
-            console.log(type)
             switch (type) {
                case 'enquire':
                   return 'logic/send-enquiry.php';
@@ -843,7 +849,6 @@
          };
 
          $("form").submit(function(event) {
-            console.log(event.target);
             $(`.btn-${event.target.id}`).html("Please Wait...").attr("disabled", true);
             var str = $(event.target).serializeArray();
             $.ajax({
