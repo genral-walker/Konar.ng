@@ -3,7 +3,7 @@
     <div class="footer-container">
     	<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-6 col-md-4">
 					<div class="footer-column">
 						<div class="footer-header">Get to know us</div>
 						<div class="footer-content">
@@ -18,7 +18,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-6 col-md-4">
 					<div class="footer-column">
 						<div class="footer-header">Partner with us</div>
 						<div class="footer-content">

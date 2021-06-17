@@ -691,13 +691,16 @@ svg#Layer_1 {
 }
 
 .enquire img {
+  position: absolute;
   max-width: 100%;
-  height: auto;
+  height: 82%;
+  margin: auto;
   border-radius: 0 40px 0 0;
 }
 
 .enquire button {
   width: 30%;
+  background: #eb1800d2;
 }
 
 @media (max-width: 1350px) {
@@ -732,6 +735,10 @@ svg#Layer_1 {
   .step-2 img {
     height: 20rem;
   }
+
+  .enquire img {
+    height: 73%;
+  }
 }
 
 @media (max-width: 1140px) {
@@ -754,9 +761,11 @@ svg#Layer_1 {
   .enquire .sub-heading::after {
     left: 30%;
   }
-
+  
+  .enquire img {
+    height: 68%;
+  }
 }
-
 
 @media (max-width: 1000px) {
   .points .point:not(:first-of-type) {
@@ -789,6 +798,10 @@ svg#Layer_1 {
   .intro img {
     width: 33%;
     height: 31rem;
+  }
+  
+  .enquire img {
+    height: 53%;
   }
 }
 
@@ -828,6 +841,10 @@ svg#Layer_1 {
   .intro img {
     height: 28rem;
   }
+  
+  .enquire img {
+    height: 45%;
+  }
 }
 
 @media (max-width: 830px) {
@@ -858,6 +875,10 @@ svg#Layer_1 {
   }
   .how .steps {
     padding: 0 1rem;
+  }
+  .enquire img {
+    position: unset;
+    height: 40vw;
   }
 }
 
@@ -894,7 +915,6 @@ svg#Layer_1 {
 }
 
 @media (max-width: 600px) {
-
   .intro img {
     height: 17rem;
   }
@@ -903,7 +923,6 @@ svg#Layer_1 {
     width: 12rem;
     height: 23rem;
   }
-  
 }
 
 @media (max-width: 550px) {
@@ -947,7 +966,7 @@ svg#Layer_1 {
     margin-left: 0;
     margin-top: 1rem;
   }
-  
+
   .step-1 img {
     height: 21rem;
   }
@@ -963,7 +982,6 @@ svg#Layer_1 {
   .enquire button {
     width: 37%;
   }
-
 }
 
 @media (max-width: 450px) {
@@ -1011,19 +1029,17 @@ svg#Layer_1 {
   }
 }
 
-
 @media (max-width: 330px) {
   .step-1 img {
     height: 12.5rem;
   }
 }
 
-
 @media (max-width: 315px) {
   .step-1 img {
     height: 11.5rem;
   }
-  
+
   .enquire button {
     width: 50%;
   }

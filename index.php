@@ -510,11 +510,11 @@
          <div class="right col-lg-8">
 
             <div class="images d-flex justify-content-center justify-content-lg-end">
-               <img data-aos="fade-up" data-aos-delay="600" data-aos-duration="1300" src="./img/phone-logo.png" class="img-fluid justify-self-start" loading="lazy" alt="into-picture">
+               <img data-aos="fade-up" data-aos-delay="600" data-aos-duration="1300" src="./img/phone-logo.png" class="img-fluid justify-self-start" alt="into-picture">
 
-               <img data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1300" src="./img/login-phone.png" class="img-fluid" loading="lazy" alt="into-picture">
+               <img data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1300" src="./img/login-phone.png" class="img-fluid" alt="into-picture">
 
-               <img data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1300" src="./img/map-phone.png" class="img-fluid" loading="lazy" alt="into-picture">
+               <img data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1300" src="./img/map-phone.png" class="img-fluid" alt="into-picture">
 
 
             </div>
@@ -583,14 +583,14 @@
                   <img src="img/login-phone.png" alt="Step 1" loading="lazy">
                   <img src="img/map-phone.png" alt="Step 1" class="ml-4" loading="lazy">
                </div>
-               <h2 class="user-desc-title my-2">STEP 1:  Request</h2>
+               <h2 class="user-desc-title my-2">STEP 1: Request</h2>
                <p class="user-desc-text">Schedule a single or multiple delivery request via Konar app.</p>
             </div>
             <div class="step step-2" data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement="top-center" data-aos-duration="1300">
                <div class="img">
-                  <img src="img/order-complete.png" class="image-responsive image-fluid" alt="Step 2" loading="lazy">
+                  <img src="img/order-complete.jpg" class="image-responsive image-fluid" alt="Step 2" loading="lazy">
                </div>
-               <h2 class="user-desc-title my-2">STEP 2:  Pick Up</h2>
+               <h2 class="user-desc-title my-2">STEP 2: Pick Up</h2>
                <p class="user-desc-text">Closest delivery partner, picks up the order and deliver to recipient.
                   Track the movement via the app.</p>
             </div>
@@ -598,7 +598,7 @@
                <div class="img">
                   <img src="img/konar-a3.jpg" class="image-fluid" alt="Step 3" loading="lazy">
                </div>
-               <h2 class="user-desc-title my-2">STEP 3:  Delivery</h2>
+               <h2 class="user-desc-title my-2">STEP 3: Delivery</h2>
                <p class="user-desc-text">Your package arrives to you promptly.🙂</p>
             </div>
          </div>
@@ -705,7 +705,7 @@
                </div>
             </div>
          </div>
-         <div class="row">
+         <div class="row" style="height: max-content; position:relative">
             <div class="col-md-6" id="cc_content-enquire" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1300">
                <!--<h3 class="login-heading mb-4">Register as a Rider</h3>-->
                <p>If you have any questions about our service, please fill in this form. A customer care representative will get back to you soon.</p>
@@ -732,8 +732,8 @@
                </form>
             </div>
             <div class="col-md-6 mt-md-0 mt-5" data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement="top-center" data-aos-duration="1300">
-               <div class="abotimglft">
-                  <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0395.jpg" loading="lazy" class="img-responsive">
+               <div class="abotimglft" style="height: 100%">
+                  <img src="./img/enquire-vectorstock.jpg" loading="lazy" class="img-responsive">
                </div>
             </div>
          </div>
