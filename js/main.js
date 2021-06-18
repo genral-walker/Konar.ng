@@ -251,5 +251,4 @@ jQuery(document).ready(function($) {
 		   window.location.hash = "#foot";
 		});
 	 });
-	
 });

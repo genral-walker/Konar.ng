@@ -686,19 +686,21 @@ svg#Layer_1 {
   border-radius: 0 40px 0 0;
 }
 
+.right-radius  {
+  border-radius: 0 40px 0 0 !important;
+}
 .enquire {
   padding: 5.5rem 4rem 6.5rem;
 }
 
-.enquire img {
-  position: absolute;
+.enquire img, .enquire-img2 {
   max-width: 100%;
-  height: 82%;
+  height: 22.6rem;
   margin: auto;
   border-radius: 0 40px 0 0;
 }
 
-.enquire button {
+.enquire button, .rider-form button {
   width: 30%;
   background: #eb1800d2;
 }
@@ -736,8 +738,8 @@ svg#Layer_1 {
     height: 20rem;
   }
 
-  .enquire img {
-    height: 73%;
+  .enquire img, .enquire-img2 {
+    height: 20.1rem;
   }
 }
 
@@ -762,8 +764,8 @@ svg#Layer_1 {
     left: 30%;
   }
   
-  .enquire img {
-    height: 68%;
+  .enquire img, .enquire-img2 {
+    height: 19.7rem;
   }
 }
 
@@ -800,8 +802,8 @@ svg#Layer_1 {
     height: 31rem;
   }
   
-  .enquire img {
-    height: 53%;
+  .enquire img, .enquire-img2 {
+    height: 248.031px;
   }
 }
 
@@ -842,8 +844,8 @@ svg#Layer_1 {
     height: 28rem;
   }
   
-  .enquire img {
-    height: 45%;
+  .enquire img, .enquire-img2 {
+    height: 210.594px;
   }
 }
 
@@ -876,9 +878,11 @@ svg#Layer_1 {
   .how .steps {
     padding: 0 1rem;
   }
-  .enquire img {
-    position: unset;
+  .enquire img, .enquire-img2 {
     height: 40vw;
+  }
+  .enquire-img2 {
+    margin-top: 2rem;
   }
 }
 
@@ -979,7 +983,7 @@ svg#Layer_1 {
   .enquire .sub-heading::after {
     left: 38%;
   }
-  .enquire button {
+  .enquire button, .rider-form button {
     width: 37%;
   }
 }
@@ -1015,7 +1019,7 @@ svg#Layer_1 {
   .step-1 img {
     height: 14rem;
   }
-  .enquire button {
+  .enquire button, .rider-form button {
     width: 40%;
   }
 }
@@ -1024,7 +1028,7 @@ svg#Layer_1 {
   .intro img {
     height: 11rem;
   }
-  .enquire button {
+  .enquire button, .rider-form button {
     width: 45%;
   }
 }
@@ -1040,7 +1044,7 @@ svg#Layer_1 {
     height: 11.5rem;
   }
 
-  .enquire button {
+  .enquire button, .rider-form button {
     width: 50%;
   }
 }

@@ -88,7 +88,8 @@ z
 
 		.form-label-group>input,
 		.form-label-group>label {
-		  padding: var(--input-padding-y) var(--input-padding-x);
+		  /* padding: var(--input-padding-y) var(--input-padding-x); */
+		  padding: 1rem .8rem .7rem;
 		  height: auto;
 		  border-radius: 2rem;
 		}
@@ -131,13 +132,13 @@ z
 		}
 
 		.form-label-group input:not(:placeholder-shown) {
-		  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
-		  padding-bottom: calc(var(--input-padding-y) / 3);
+		  /* padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+		  padding-bottom: calc(var(--input-padding-y) / 3); */
 		}
 
 		.form-label-group input:not(:placeholder-shown)~label {
-		  padding-top: calc(var(--input-padding-y) / 3);
-		  padding-bottom: calc(var(--input-padding-y) / 3);
+		  padding-top: .2rem;
+		  padding-bottom: .4rem;
 		  font-size: 12px;
 		  color: #777;
 		}
@@ -242,7 +243,9 @@ z
 	</div>
 	
 <!-- FOOTER SECTION -->
-<?php include 'layout/footer.php'; ?>
+<?php include 'layout/footer.php';?>
+
+<?php include 'layout/forms.php';?>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -255,6 +258,9 @@ z
 
   <script src="js/main.js"></script>
   <script src="js/custom.js"></script>
+  
+  <script src="js/form-request.js"></script>
 
 </body>
 </html>
+

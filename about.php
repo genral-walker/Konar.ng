@@ -119,7 +119,7 @@
         <div class="row mb-5">
           
           <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
-            <img src="about_us.jpg" alt="Image" class="img-fluid rounded" style="width:100%">
+            <img src="about_us.jpg" alt="Image" class="img-fluid rounded right-radius" style="width:100%">
           </div>
           <div class="col-md-6 order-md-1" data-aos="fade">
             <div class="text-left pb-1 border-primary mb-4">
@@ -265,7 +265,8 @@
     </div>
 
 <!-- FOOTER SECTION -->
-<?php include 'layout/footer.php'; ?>
+<?php require_once 'layout/footer.php'; ?>
+<?php require_once 'layout/forms.php'; ?>
 
   </div>
 
@@ -283,6 +284,7 @@
 
   <script src="js/main.js"></script>
   <script src="js/custom.js"></script>
+  <script src="js/form-request.js"></script>
     
   </body>
 </html>

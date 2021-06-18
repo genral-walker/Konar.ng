@@ -323,15 +323,6 @@
     </div>
   </div>
 
-  <div style="display:none;" id="cc_success">
-    <div style="text-align: center;">
-      <h3>Request Submitted</h3>
-      <br />
-      <div>Our Customer Service Agent will contact you shortly</div>
-      <div>Or you can feel free to call us on</div>
-      <div><strong style="font-weight:700">0802 712 0000, 0808 952 0000</strong></div>
-    </div>
-  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js"></script>

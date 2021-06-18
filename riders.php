@@ -259,7 +259,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="abotimglft">
-              <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0401.jpg" class="img-responsive" />
+              <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0401.jpg" class="img-responsive right-radius" />
             </div>
           </div>
           <div class="col-md-6">
@@ -396,7 +396,7 @@
           <div class="col-md-6" id="cc_content">
             <!--<h3 class="login-heading mb-4">Register as a Rider</h3>-->
             <p>If you have any questions about our service, please fill in this form. A customer care representative will get back to you soon.</p>
-            <form class="" id="ccform">
+            <form class="rider-form" id="ccform">
               <div class="form-label-group">
                 <input type="text" id="inputName" class="form-control" placeholder="Full Name" required name="name">
                 <label for="inputName">Full Name</label>
@@ -420,7 +420,7 @@
           </div>
           <div class="col-md-6">
             <div class="abotimglft">
-              <img src="https://ik.imagekit.io/sqtoptimizer/konar/tr:h-600/img/IMG_0395.jpg" class="img-responsive" />
+              <img src="./img/enquire-vectorstock.jpg" class="img-responsive right-radius enquire-img2" />
             </div>
           </div>
         </div>
@@ -436,17 +436,9 @@
     </section>
 
     <!-- FOOTER SECTION -->
-    <?php include 'layout/footer.php'; ?>
+    <?php require_once 'layout/footer.php'; ?>
+    <?php require_once 'layout/forms.php'; ?>
 
-    <div style="display:none;" id="cc_success">
-      <div style="text-align: center;">
-        <h3>Request Submitted</h3>
-        <br />
-        <div>Our Customer Service Agent will contact you shortly</div>
-        <div>Or you can feel free to call us on</div>
-        <div><strong style="font-weight:700">0802 712 0000, 0808 952 0000</strong></div>
-      </div>
-    </div>
 
     <!-- jquery Liabrary -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -494,6 +486,9 @@
 
       });
     </script>
+
+<script src="js/form-request.js"></script>
+
 </body>
 
 </html>

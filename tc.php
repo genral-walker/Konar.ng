@@ -100,6 +100,7 @@
 
 <!-- FOOTER SECTION -->
 <?php include 'layout/footer.php'; ?>
+<?php include_once 'layout/forms.php'; ?>
 
   </div>
 
@@ -117,6 +118,7 @@
 
   <script src="js/main.js"></script>
   <script src="js/custom.js"></script>
+  <script src="js/form-request.js"></script>
     
   </body>
 </html>

@@ -1,7 +1,7 @@
 <?php
 
 
-	  $emails = "hello@konar.ng, ben.kc@konar.ng, cyntia.A@konar.ng";
+	  $emails = "hello@konar.ng, ben.kc@konar.ng";
 
             $to      = $emails;
 		    $subject = "New Become A Merchant Request";
