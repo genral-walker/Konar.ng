@@ -26,10 +26,10 @@ yarn-error.log*
 .netlify
 
 # Folders
-.git
-.well-known
-admin
-comingsoon
-.htaccess
-.htaccess.07122020.bak
-.htaccess.07272020.bak
+/.git
+/.well-known
+/admin
+/comingsoon
+/.htaccess
+/.htaccess.07122020.bak
+/.htaccess.07272020.bak
